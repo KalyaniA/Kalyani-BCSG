@@ -1,0 +1,32 @@
+  					'Bank Details' Web Application
+  
+  What is it?
+  -----------
+
+  This is a web application that allows user to manage the Bank Details. 
+  Provides features like store bank details, list,edit Bank Details. 
+  While listing bank details, it displays in descending order of expiry dates.
+
+  Technology stack
+  ------------------
+  1)	JDK 1.7
+  2)	Hibernate 3
+  3)	MySQL 5.6
+  4)	Tomcat 8
+  5)	Spring Framework 3
+  6)	Eclipse Indigo
+  7)	Maven 3
+  
+  Deployment steps
+  --------------------
+
+  1. Create a MySQL database by executing the script provided
+  under "BankDetailsManager\src\main\resources\dbsetup.txt"
+  3. Verify the "database.url" property value from database.properties under "ContactManager\src\main\resources" 
+  2. Execute command "mvn clean install" from BankDetailsManager folder.
+  3. Copy the BankDetailsManager-0.0.1-SNAPSHOT.war from BankDetailsManager\target" folder
+  to the "Tomcat\webapps" folder.
+  4. Start the startup.bat from "Tomcat\bin" folder.
+  5. Open a browser, access link "http://host:port/BankDetailsManager-0.0.1-SNAPSHOT"
+     for example, "http://localhost:8080/BankDetailsManager-0.0.1-SNAPSHOT"
+     
